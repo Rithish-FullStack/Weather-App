@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 100vh;
+}
+
+#locationName {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Icon {
+    font-size: 30px;
+}
+
+#description {
+    font-size: 30px;
+}
+
+#temp {
+    font-size: 20px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid cyan;
+    width: 480px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1000;
+}
+
+.container:hover {
+    background-color: rgb(24, 134, 139);
+}
